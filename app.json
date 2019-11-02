@@ -1,0 +1,6 @@
+{
+  "name": "Python with Sentry logging",
+  "description": "Project to test logging with Sentry.",
+  "image": "heroku/python",
+  "keywords": ["python", "bottle", "sentry_sdk"],
+}
