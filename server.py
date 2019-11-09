@@ -4,7 +4,7 @@ from bottle import Bottle, route, run
 from sentry_sdk.integrations.bottle import BottleIntegration
 
 sentry_sdk.init(
-    dsn="https://fb2b504f1fd64bcd998e293f344076fb@sentry.io/1805515",
+    dsn=os.environ.get("SENTRY_DSN"),
     integrations=[BottleIntegration()]
 )
 
